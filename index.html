@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Chat</title>
+  <!-- LOGO    <link rel="icon" href="logo2.ico" type="image/x-icon"> -->
+</head>
+<body>
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyBkhpW4X9Q3vUk7Z6OdFrrapNALjXMcpqw",
+    authDomain: "chat-8f62a.firebaseapp.com",
+    projectId: "chat-8f62a",
+    storageBucket: "chat-8f62a.appspot.com",
+    messagingSenderId: "450857033839",
+    appId: "1:450857033839:web:4ce8a1294673e0321ded9a"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+  <div class="wrapper">
+    <header>
+      <div class="banner">
+       <h1>Chat</h1>
+      </div>
+    </header>
+
+    <div class="container">
+      <!--<nav>
+        <ul>
+          <li><a href="https://chat.zaaq.fr/">Accueil</a></li>
+        </ul>
+      </nav>-->
+
+      <section>
+        <!DOCTYPE html>
+
+  <style>
+    <link rel="stylesheet" href="chat.css">
+  </style>
+
+  <div id="chatbox">
+    <!-- Zone pour afficher les messages -->
+  </div>
+
+
+  <script src="chat.js"></script>
+
+
+      </section>
+    </div>
+
+    <footer>
+      <input type="text" id="messageInput" placeholder="Saisissez votre message">
+  <button onclick="envoyerMessage()">Envoyer</button>
+    
+    </footer>
+  </div>
+
+</body>
+</html>

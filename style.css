@@ -1,0 +1,84 @@
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", sans-serif;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Styles pour la bannière */
+  .banner {
+    background-color: #a90078;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .banner h1 {
+    margin: 0;
+  }
+  
+  /* Styles pour le menu */
+ .container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+  
+  nav {
+    background-color: #440034;
+    width: 170px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    padding: 10px;
+    
+  }
+  
+  nav ul li a,
+  .container section a {
+      text-decoration: none;
+      color: #8ddbff;
+  }
+  
+  nav ul li a:hover {
+    color: #ff0000; /* Rouge */
+  }
+  
+  /* Styles pour le contenu principal */
+  section {
+    padding: 20px;
+    flex: 1;
+    background-color: #1e001e;
+    color: #ffffff;
+  }
+  
+  /* Styles pour le pied de page */
+  footer {
+    background-color: #a90078;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+#chatbox {
+  overflow-y: auto;
+  height: calc(100% - 100px); /* Ajuster la hauteur en fonction de votre besoin */
+}
+
+  

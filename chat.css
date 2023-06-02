@@ -1,0 +1,11 @@
+/* Styles CSS pour le chat */
+#chatbox {
+  height: 200px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#messageInput {
+  width: 200px;
+}
